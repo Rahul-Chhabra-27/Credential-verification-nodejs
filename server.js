@@ -14,6 +14,9 @@ app.use(express.urlencoded({ extended : false }));
 // User Route.
 app.use(require('./routes/user-route/user-route'));
 
+// Quotes Route
+app.use('/api/quote',require('./routes/quote-route/quote-route'));
+
 app.get('/',(req,res) => {
     res.sendFile(path.join(__dirname,'public','index.html'));
 });

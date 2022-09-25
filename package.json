@@ -4,7 +4,7 @@
   "description": "Validating the user credentials",
   "main": "server.js",
   "scripts": {
-    "dev":"nodemon server.js"
+    "dev": "nodemon server.js"
   },
   "author": "Rahul Chhabra",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
     "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.6.1"
   },
   "devDependencies": {
